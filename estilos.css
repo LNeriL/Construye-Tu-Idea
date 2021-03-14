@@ -1,0 +1,349 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+.titulo{
+    color: rgb(255, 145, 0);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 30px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.719);
+    box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #ff190052;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af1946, #f1271146), url(image/3.jpg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af1941, #f127113b), url(image/3.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    margin: 10px;
+    box-shadow: 0 0 6px 0 rgb(255, 145, 0);
+    padding: 5px;
+    font-family: 'Staatliches';
+}
+
+nav >a:hover{
+    text-decoration: overline;
+}
+
+header .catitulos{
+    display: flex;
+    height: 300px;
+    width: 96%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+.catitulos h2{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.catitulos h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    width: 60%;
+}
+
+/*Seccion Hzlo*/
+
+.hazlo .titulo{
+    background: rgb(255, 255, 255);
+}
+
+.hazlo{
+    background: #c21300b7;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc4007a, #c21300c0);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffc40075, #c21300b7); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-bottom: 80px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-hazlo{
+    width: 50%;
+    text-align: center; 
+    margin: auto;
+}
+
+.cont-hazlo img{
+    width: 90%;
+    padding: 0 0 50px 15px;
+}
+
+.con-textos1 p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Neuton', serif;
+}
+
+/*Seccion Nuestro Trabajo*/
+
+.trabajo .titulo{
+    background: rgb(255, 255, 255);
+}
+.trabajo{
+    background: #c21300b7;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc4007a, #c21300c0);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffc40075, #c21300b7); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-trabajo{
+    width: 70%;
+    text-align: center; 
+    margin: auto;
+}
+
+.cont-trabajo img{
+    width: 90%;
+    padding: 0 0 50px 15px;
+
+}
+
+.con-textos2 p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Neuton', serif;
+} 
+
+
+/*seccion trabajadores*/
+
+.trabajadores .titulo{
+    background: rgb(255, 255, 255);
+}
+
+.trabajadores{
+    background: #c21300b7;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc4007a, #c21300c0);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffc40075, #c21300b7); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-trabajadores{
+    width: 70%;
+    text-align: center; 
+    margin: auto;
+}
+
+.cont-trabajadores img{
+    width: 90%;
+    padding: 0 0 50px 15px;
+}
+
+.con-textos3 p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Neuton', serif;
+}
+
+
+
+/*seccion ya sabes*/
+
+.sabes .titulo{
+    background: rgb(255, 255, 255);
+}
+
+.sabes{
+    background: #c21300b7;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffc4007a, #c21300c0);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffc40075, #c21300b7); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-sabes{
+    width: 70%;
+    text-align: center; 
+    margin: auto;
+}
+
+.cont-sabes img{
+    width: 90%;
+    padding: 0 0 50px 15px;
+}
+
+.con-textos4 p{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Neuton', serif;
+}
+
+
+/*seccion contacto*/
+footer{
+    background: rgb(255, 255, 255);
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.cont-contacto{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 3px solid white;
+}
+
+.con-foo{
+    text-align: center;
+}
+
+.con-foo h4{
+    color: rgb(255, 145, 0);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.con-foo a{
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 6px 0 rgb(255, 145, 0);
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.con-foo p{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Neuton', serif;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    color: rgb(255, 145, 0);
+}
+
+@media screen and (max-width:500px){
+
+    header{
+        background-position: center;
+    }
+    
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 10px;
+    }
+
+    .catitulos h2{
+        font-size: 30px;
+    }
+
+    .catitulos h1{
+        font-size: 50px;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+    .titulo-final{
+        text-align: center;
+    }
+
+    .con-textos1  > p{
+        flex-direction: column;
+        font-size: 20px;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .con-textos2  > p{
+        flex-direction: column;
+        font-size: 20px;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .con-textos3  > p{
+        flex-direction: column;
+        font-size: 20px;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .con-textos4  > p{
+        flex-direction: column;
+        font-size: 22px;
+        justify-content: center;
+        text-align: justify;
+    }
+
+}
